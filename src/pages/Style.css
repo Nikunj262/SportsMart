@@ -1,0 +1,207 @@
+/* client/src/Style.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.list-table {
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+}
+
+.list-table th,
+.list-table td {
+  padding: 12px;
+}
+
+.list-table th {
+  background-color: #333;
+  color: #fff;
+  text-align: left;
+}
+
+.list-table td {
+  background-color: #f0f0f0;
+}
+
+.list-table tr:nth-child(even) td {
+  background-color: #e0e0e0;
+}
+
+.list-table tr:last-child td {
+  border-bottom: none;
+}
+
+.list-table tr:hover td {
+  background-color: #ccc;
+}
+
+.list-item {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.container-navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333;
+}
+
+.logo img {
+  max-height: 50px;
+  margin-right: 10px;
+  
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Add this to your existing Style.css file */
+
+.sports {
+  color: #fff; /* or any color you prefer for "Sports" */
+  font-weight: bold;
+}
+
+.mart {
+  color: #ff0000; /* or any color you prefer for "Mart" */
+  font-weight: bold;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+/* Style for the footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+
+/* Add this to your existing Style.css file */
+
+/* Styles for the About page */
+.about-section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Optional: Additional styling for headings and paragraphs */
+.heading {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+
+/* Home page */
+/* Add this to your existing Style.css file */
+
+/* Styles for the Home page */
+.home-content {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.featured-products {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.product {
+  width: 45%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.product h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.product p {
+  color: #666;
+}
+
+/* Optional: Additional styling for headings and paragraphs */
+.heading {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+
