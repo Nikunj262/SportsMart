@@ -14,7 +14,8 @@ const App = () => {
 
   return (
     <Router>
-      <Navbar /> {/* Include the Navbar component */}
+      <Navbar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
+ 
       <div className="page-content"> {/* Apply the style to the content */}
         <Routes>
           <Route path="/" element={isLoggedIn ? <Home /> : <Login />} />
