@@ -18,7 +18,7 @@ const App = () => {
  
       <div className="page-content"> {/* Apply the style to the content */}
         <Routes>
-          <Route path="/" element={isLoggedIn ? <Home /> : <Login />} />
+          <Route path="/" element={isLoggedIn ? <Home /> : <Home />} />
           <Route path="/about" element={isLoggedIn ? <About /> : <Login />} />
           <Route path="/users" element={isLoggedIn ? <Users /> : <Login />} />
           <Route path="/login" element={<Login setIsLoggedIn={setIsLoggedIn} />} />
